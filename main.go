@@ -17,6 +17,8 @@ func main() {
 	// component to display for a given path, on both client and server-side.
 	// app.Route("/", &hello{})
 	app.Route("/", &myCompo{})
+	app.Route("/game", &home{})
+	app.Route("/select", &gameSelect{})
 
 	// Once the routes set up, the next thing to do is to either launch the app
 	// or the server that serves the app.

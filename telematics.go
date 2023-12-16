@@ -1,4 +1,6 @@
-package telematics
+package main
+
+// telematics
 
 import (
 	"context"

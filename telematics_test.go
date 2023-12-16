@@ -1,4 +1,4 @@
-package telematics
+package main //telematics
 
 import (
 	"testing"
